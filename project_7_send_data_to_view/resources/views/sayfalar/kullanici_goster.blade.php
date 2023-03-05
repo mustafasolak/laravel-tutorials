@@ -1,0 +1,1 @@
+Gelen Kullanıcı ID : {{$id}}
