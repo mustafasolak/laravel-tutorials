@@ -4,7 +4,14 @@
 @endsection
 
 <div class="container">
-    <table class="table">
+
+    <form >
+        <textarea name="text" class="ckeditor"></textarea>
+    </form>
+
+    
+
+    {{-- <table class="table">
         <thead>
             <tr>
                 <th scope="col">#</th>
@@ -25,7 +32,7 @@
 
     <div class="row">
         {!! $users->links() !!}
-    </div>
+    </div> --}}
 </div>
 
  

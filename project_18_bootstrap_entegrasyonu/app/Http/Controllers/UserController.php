@@ -11,6 +11,6 @@ class UserController extends Controller
     public function index(){
         // $users = User::query()->get();
         $users = User::paginate(10);
-        return  view("index", compact("users"));
+        return  view("ckeditor", compact("users"));
     }
 }
